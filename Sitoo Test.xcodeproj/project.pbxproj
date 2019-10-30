@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81BE4E152368E097002DA078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4E142368E097002DA078 /* AppDelegate.swift */; };
+		81BE4E1B2368E09D002DA078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BE4E1A2368E09D002DA078 /* Assets.xcassets */; };
+		81BE4E1E2368E09D002DA078 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BE4E1D2368E09D002DA078 /* Preview Assets.xcassets */; };
+		81BE4E212368E09D002DA078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BE4E1F2368E09D002DA078 /* LaunchScreen.storyboard */; };
+		81BE4E292368E1E0002DA078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BE4E282368E1E0002DA078 /* Main.storyboard */; };
+		81BE4E2C2368E425002DA078 /* SitooAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4E2B2368E425002DA078 /* SitooAPIClient.swift */; };
+		81BE4E2F2368E7F6002DA078 /* ProductsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4E2E2368E7F6002DA078 /* ProductsResponseModel.swift */; };
+		81BE4E312368E896002DA078 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4E302368E896002DA078 /* ProductModel.swift */; };
+		81BE4E332368ECDF002DA078 /* VariantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4E322368ECDF002DA078 /* VariantModel.swift */; };
+		81BE4E352368EE6F002DA078 /* ProductImagesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4E342368EE6F002DA078 /* ProductImagesResponseModel.swift */; };
+		81BE4E372368EFBD002DA078 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4E362368EFBD002DA078 /* ImageModel.swift */; };
+		81BE4E3B236A0B9D002DA078 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4E3A236A0B9D002DA078 /* ProductsViewController.swift */; };
+		81BE4E3F236A2B70002DA078 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4E3E236A2B70002DA078 /* ProductViewCell.swift */; };
+		81BE4E41236A36FA002DA078 /* DetailProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4E40236A36FA002DA078 /* DetailProductViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81BE4E112368E097002DA078 /* Sitoo Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sitoo Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BE4E142368E097002DA078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81BE4E1A2368E09D002DA078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81BE4E1D2368E09D002DA078 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81BE4E202368E09D002DA078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81BE4E222368E09D002DA078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BE4E282368E1E0002DA078 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		81BE4E2B2368E425002DA078 /* SitooAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitooAPIClient.swift; sourceTree = "<group>"; };
+		81BE4E2E2368E7F6002DA078 /* ProductsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsResponseModel.swift; sourceTree = "<group>"; };
+		81BE4E302368E896002DA078 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		81BE4E322368ECDF002DA078 /* VariantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantModel.swift; sourceTree = "<group>"; };
+		81BE4E342368EE6F002DA078 /* ProductImagesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImagesResponseModel.swift; sourceTree = "<group>"; };
+		81BE4E362368EFBD002DA078 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		81BE4E3A236A0B9D002DA078 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		81BE4E3E236A2B70002DA078 /* ProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCell.swift; sourceTree = "<group>"; };
+		81BE4E40236A36FA002DA078 /* DetailProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProductViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81BE4E0E2368E097002DA078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81BE4E082368E097002DA078 = {
+			isa = PBXGroup;
+			children = (
+				81BE4E132368E097002DA078 /* Sitoo Test */,
+				81BE4E122368E097002DA078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81BE4E122368E097002DA078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81BE4E112368E097002DA078 /* Sitoo Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81BE4E132368E097002DA078 /* Sitoo Test */ = {
+			isa = PBXGroup;
+			children = (
+				81BE4E3D236A2B5E002DA078 /* Views */,
+				81BE4E3C236A1FA9002DA078 /* Controllers */,
+				81BE4E2D2368E7AC002DA078 /* Models */,
+				81BE4E2A2368E401002DA078 /* Data */,
+				81BE4E142368E097002DA078 /* AppDelegate.swift */,
+				81BE4E1A2368E09D002DA078 /* Assets.xcassets */,
+				81BE4E1F2368E09D002DA078 /* LaunchScreen.storyboard */,
+				81BE4E222368E09D002DA078 /* Info.plist */,
+				81BE4E1C2368E09D002DA078 /* Preview Content */,
+				81BE4E282368E1E0002DA078 /* Main.storyboard */,
+			);
+			path = "Sitoo Test";
+			sourceTree = "<group>";
+		};
+		81BE4E1C2368E09D002DA078 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81BE4E1D2368E09D002DA078 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81BE4E2A2368E401002DA078 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				81BE4E2B2368E425002DA078 /* SitooAPIClient.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		81BE4E2D2368E7AC002DA078 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81BE4E2E2368E7F6002DA078 /* ProductsResponseModel.swift */,
+				81BE4E302368E896002DA078 /* ProductModel.swift */,
+				81BE4E322368ECDF002DA078 /* VariantModel.swift */,
+				81BE4E342368EE6F002DA078 /* ProductImagesResponseModel.swift */,
+				81BE4E362368EFBD002DA078 /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81BE4E3C236A1FA9002DA078 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81BE4E3A236A0B9D002DA078 /* ProductsViewController.swift */,
+				81BE4E40236A36FA002DA078 /* DetailProductViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81BE4E3D236A2B5E002DA078 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81BE4E3E236A2B70002DA078 /* ProductViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81BE4E102368E097002DA078 /* Sitoo Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BE4E252368E09D002DA078 /* Build configuration list for PBXNativeTarget "Sitoo Test" */;
+			buildPhases = (
+				81BE4E0D2368E097002DA078 /* Sources */,
+				81BE4E0E2368E097002DA078 /* Frameworks */,
+				81BE4E0F2368E097002DA078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sitoo Test";
+			productName = "Sitoo Test";
+			productReference = 81BE4E112368E097002DA078 /* Sitoo Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81BE4E092368E097002DA078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Sitoo;
+				TargetAttributes = {
+					81BE4E102368E097002DA078 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 81BE4E0C2368E097002DA078 /* Build configuration list for PBXProject "Sitoo Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81BE4E082368E097002DA078;
+			productRefGroup = 81BE4E122368E097002DA078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81BE4E102368E097002DA078 /* Sitoo Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81BE4E0F2368E097002DA078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BE4E212368E09D002DA078 /* LaunchScreen.storyboard in Resources */,
+				81BE4E1E2368E09D002DA078 /* Preview Assets.xcassets in Resources */,
+				81BE4E1B2368E09D002DA078 /* Assets.xcassets in Resources */,
+				81BE4E292368E1E0002DA078 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81BE4E0D2368E097002DA078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BE4E152368E097002DA078 /* AppDelegate.swift in Sources */,
+				81BE4E312368E896002DA078 /* ProductModel.swift in Sources */,
+				81BE4E3F236A2B70002DA078 /* ProductViewCell.swift in Sources */,
+				81BE4E2C2368E425002DA078 /* SitooAPIClient.swift in Sources */,
+				81BE4E372368EFBD002DA078 /* ImageModel.swift in Sources */,
+				81BE4E352368EE6F002DA078 /* ProductImagesResponseModel.swift in Sources */,
+				81BE4E2F2368E7F6002DA078 /* ProductsResponseModel.swift in Sources */,
+				81BE4E3B236A0B9D002DA078 /* ProductsViewController.swift in Sources */,
+				81BE4E332368ECDF002DA078 /* VariantModel.swift in Sources */,
+				81BE4E41236A36FA002DA078 /* DetailProductViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81BE4E1F2368E09D002DA078 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BE4E202368E09D002DA078 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81BE4E232368E09D002DA078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81BE4E242368E09D002DA078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81BE4E262368E09D002DA078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sitoo Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JLEX62WZ5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sitoo Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sitoo.Sitoo-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81BE4E272368E09D002DA078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sitoo Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JLEX62WZ5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sitoo Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sitoo.Sitoo-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81BE4E0C2368E097002DA078 /* Build configuration list for PBXProject "Sitoo Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BE4E232368E09D002DA078 /* Debug */,
+				81BE4E242368E09D002DA078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BE4E252368E09D002DA078 /* Build configuration list for PBXNativeTarget "Sitoo Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BE4E262368E09D002DA078 /* Debug */,
+				81BE4E272368E09D002DA078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81BE4E092368E097002DA078 /* Project object */;
+}
